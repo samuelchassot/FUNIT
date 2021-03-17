@@ -1,1 +1,4 @@
-class01
+cloudy
+night
+rainy
+sunny
