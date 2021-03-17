@@ -1,1 +1,1 @@
-class01/class01-img01.JPEG
+cloudy/video_data_20180703/jig_KYT01/20180622_KYT/dw_2018_06_22_13-42-45_000000_20fps_bae/camera_2_center_fov60.h264/7_00436.png
