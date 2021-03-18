@@ -21,6 +21,7 @@ cudnn.benchmark = True
 
 # SAMUEL 18.03.2021 CUDA GPU setting
 os.environ['CUDA_VISIBLE_DEVICES']='0'
+print("Using GPU=0 with CUDA")
 # SAMUEL 18.03.2021 CUDA GPU setting
 
 
