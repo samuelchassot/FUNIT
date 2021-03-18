@@ -19,6 +19,11 @@ import torch.backends.cudnn as cudnn
 # Enable auto-tuner to find the best algorithm to use for your hardware.
 cudnn.benchmark = True
 
+# SAMUEL 18.03.2021 CUDA GPU setting
+os.environ['CUDA_VISIBLE_DEVICES']='0'
+# SAMUEL 18.03.2021 CUDA GPU setting
+
+
 parser = argparse.ArgumentParser()
 parser.add_argument('--config',
                     type=str,
