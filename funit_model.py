@@ -28,6 +28,12 @@ class FUNITModel(nn.Module):
         xb = cl_data[0].cuda()
         lb = cl_data[1].cuda()
         if mode == 'gen_update':
+
+            # INSERT here the object detection
+            # then, for each objects, keep the bounding box and encode it,
+            # then merge (in some way, maybe replace the features), in the encoding
+            # of the whole image, the encoding of each objects using its bounding box
+            # information
             c_xa = self.gen.enc_content(xa)
             s_xa = self.gen.enc_class_model(xa)
             s_xb = self.gen.enc_class_model(xb)
