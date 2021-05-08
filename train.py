@@ -20,8 +20,7 @@ import torch.backends.cudnn as cudnn
 cudnn.benchmark = True
 
 # SAMUEL 18.03.2021 CUDA GPU setting
-os.environ['CUDA_VISIBLE_DEVICES']='0'
-print("Using GPU=0 with CUDA")
+os.environ['CUDA_VISIBLE_DEVICES']='1'
 # SAMUEL 18.03.2021 CUDA GPU setting
 
 

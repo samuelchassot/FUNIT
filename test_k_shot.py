@@ -16,6 +16,7 @@ from trainer import Trainer
 
 import argparse
 
+os.environ['CUDA_VISIBLE_DEVICES']='1'
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--config',
