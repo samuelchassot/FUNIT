@@ -1,5 +1,11 @@
-3: with the reduced dataset (after freeing space on the cluster) see commit 58d203e6f71448ec88de05047d8eb4de7c03321c for the dataset, with night as test
+3: with the reduced dataset (after freeing space on the cluster) see commit 58d203e6f71448ec88de05047d8eb4de7c03321c for the dataset, with night as test 
+    (datasets are here: https://github.com/danielementary/Unsupervised-Image-to-Image-Translation/tree/main/dataset
+        and they are in night_list.txt, rainy_list.txt, to_keep_sunny.txt, to_keep_cloud.txt)
 4: same as 3 with more iterations
 5: same as 4 with more iterations
 6: reduced dataset with same number of images in all classes (set to the number of images in the smallest i.e. night), with night as test. intermediary tests during training
+    (datasets are here: https://github.com/danielementary/Unsupervised-Image-to-Image-Translation/tree/main/dataset
+        and they are reduced_cloudy.txt reduced_rainy.txt reduced_night.txt reduced_sunny.txt )
 7: reduced dataset with same number of images in all classes (set to the number of images in the smallest i.e. night), with night as test. After 480'000 iterations
+    (datasets are here: https://github.com/danielementary/Unsupervised-Image-to-Image-Translation/tree/main/dataset
+        and they are reduced_cloudy.txt reduced_rainy.txt reduced_night.txt reduced_sunny.txt )
