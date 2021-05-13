@@ -9,3 +9,7 @@
 7: reduced dataset with same number of images in all classes (set to the number of images in the smallest i.e. night), with night as test. After 480'000 iterations
     (datasets are here: https://github.com/danielementary/Unsupervised-Image-to-Image-Translation/tree/main/dataset
         and they are reduced_cloudy.txt reduced_rainy.txt reduced_night.txt reduced_sunny.txt )
+
+8: with retinanet classes: all classes are sunny, cloudy, rainy, night, cloudy_XXX, ... randomly attributed to test/train with a ratio of 85% in train. Problem: we want all nights as test, I made a mistake.
+    after 230'000 iterations (see : commit dea96e03b7287ab54104d95de109cc39f102db38 on FUNIT 
+                                            https://github.com/danielementary/Unsupervised-Image-to-Image-Translation/tree/dea96e03b7287ab54104d95de109cc39f102db38/dataset/retinanet/train_test)
