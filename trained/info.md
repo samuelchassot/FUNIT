@@ -181,6 +181,7 @@
         ```
 
 - `/scratch/2021-spring-cs413-team3/Unsupervised-Image-to-Image-Translation/FUNIT/trained/outputs_used_for_7/` is the one with the smaller dataset with the same number of images in each class, test is night. 
+    Stopped after: 483'000 iterations
     Dataset is available here: https://github.com/samuelchassot/FUNIT/tree/b90c4610ff856a1780264c18a469ca46a5f0d46d
     (reduced one, see config for name)
 
