@@ -30,15 +30,15 @@ gen:
 dis:
   nf: 64                      # base number of filters
   n_res_blks: 10              # number of residual blocks in the discriminator
-  num_classes: 76             # number of classes in the training set
+  num_classes: 3              # number of classes in the training set
 
 # data options
 num_workers: 4
-batch_size: 8
+batch_size: 16
 new_size: 140                 # first resize the shortest image side to this size
 crop_image_height: 128        # random crop image of this height
 crop_image_width: 128         # random crop image of this width
-data_folder_train: ./datasets/roads/ssd
-data_list_train: ./datasets/training_with_retinanet.txt
-data_folder_test: ./datasets/roads/ssd
-data_list_test: ./datasets/testing_with_retinanet.txt
+data_folder_train: ./datasets/roads/unbalanced
+data_list_train: ./datasets/roads_train_unbalanced.txt
+data_folder_test: ./datasets/roads/unbalanced
+data_list_test: ./datasets/roads_test_unbalanced.txt
