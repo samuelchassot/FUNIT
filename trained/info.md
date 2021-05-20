@@ -191,3 +191,6 @@ stored now `/ivrldata1/students/2021-spring-cs413-team3/models/outputs_balanced_
 
 
 - `/ivrldata1/students/2021-spring-cs413-team3/models/outputs_9_with_retinanet_500K`: model trained with images using retinanet, with all night classes as test and others as train. trained for 500K iterations
+
+    Datasets are here: https://github.com/samuelchassot/FUNIT/commit/4e86695a6179cc12925f70c381218951d8038c09
+    `training_with_retinanet.txt`, `testing_with_retinanet.txt`
