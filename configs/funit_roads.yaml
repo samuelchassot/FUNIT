@@ -9,10 +9,10 @@ snapshot_save_iter: 5000      # How often do you want to save trained models
 log_iter: 1                   # How often do you want to log the training stats
 
 # optimization options
-max_iter: 250000              # maximum number of training iterations
+max_iter: 500000              # maximum number of training iterations
 weight_decay: 0.0001          # weight decay
-lr_gen: 0.00001               # learning rate for the generator
-lr_dis: 0.00001               # learning rate for the discriminator
+lr_gen: 0.0001                # learning rate for the generator
+lr_dis: 0.0001                # learning rate for the discriminator
 init: kaiming                 # initialization [gaussian/kaiming/xavier/orthogonal]
 gan_w: 1                      # weight of adversarial loss for image translation
 fm_w: 1                       # weight on distance between gan features of style and translated image
@@ -30,7 +30,7 @@ gen:
 dis:
   nf: 64                      # base number of filters
   n_res_blks: 10              # number of residual blocks in the discriminator
-  num_classes: 3              # number of classes in the training set
+  num_classes: 76             # number of classes in the training set
 
 # data options
 num_workers: 4
@@ -38,7 +38,7 @@ batch_size: 8
 new_size: 140                 # first resize the shortest image side to this size
 crop_image_height: 128        # random crop image of this height
 crop_image_width: 128         # random crop image of this width
-data_folder_train: ./datasets/roads/unbalanced
-data_list_train: ./datasets/roads_train_unbalanced.txt
-data_folder_test: ./datasets/roads/unbalanced
-data_list_test: ./datasets/roads_test_unbalanced.txt
+data_folder_train: ./datasets/roads/ssd
+data_list_train: ./datasets/training_with_retinanet.txt
+data_folder_test: ./datasets/roads/ssd
+data_list_test: ./datasets/testing_with_retinanet.txt
