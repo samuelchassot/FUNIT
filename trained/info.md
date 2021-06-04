@@ -82,6 +82,8 @@
 # outputs folders
 
 - `/ivrldata1/students/2021-spring-cs413-team3/FUNIT_outputs/outputs_20.04.2021/` and `/scratch/2021-spring-cs413-team3/Unsupervised-Image-to-Image-Translation/FUNIT/outputs_02.05.2021/` are the same config but the first one didn't want to resume so I did a new one. Both ran on the same dataset and the 1st for 250'000 it and the second for 470'000 it
+
+stored now `/ivrldata1/students/2021-spring-cs413-team3/models/outputs_unbalanced_470K`
     Dataset is available here: https://github.com/samuelchassot/FUNIT/tree/519c61faaf7873e61a324eddabf1f0d6498c3e3b
 
         ```
@@ -132,6 +134,8 @@
         ```
 
 - `/scratch/2021-spring-cs413-team3/Unsupervised-Image-to-Image-Translation/FUNIT/trained/outputs_used_for_7/` is the one with the smaller dataset with the same number of images in each class, test is night. 
+
+stored now `/ivrldata1/students/2021-spring-cs413-team3/models/outputs_balanced_483K`
     Stopped after: 483'000 iterations
     Dataset is available here: https://github.com/samuelchassot/FUNIT/tree/b90c4610ff856a1780264c18a469ca46a5f0d46d
     (reduced one, see config for name)
@@ -184,3 +188,9 @@
         ```
 
 - `/scratch/2021-spring-cs413-team3/Unsupervised-Image-to-Image-Translation/FUNIT/trained/outputs_retinanet_random_classes_used_for_8/` with classes outputs by retinanet
+
+
+- `/ivrldata1/students/2021-spring-cs413-team3/models/outputs_9_with_retinanet_500K`: model trained with images using retinanet, with all night classes as test and others as train. trained for 500K iterations
+
+    Datasets are here: https://github.com/samuelchassot/FUNIT/commit/4e86695a6179cc12925f70c381218951d8038c09
+    `training_with_retinanet.txt`, `testing_with_retinanet.txt`
